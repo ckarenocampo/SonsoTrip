@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2aff6"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="193dp"
+        android:layout_height="193dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/lg" />
+
+    <ImageView
+        android:id="@+id/imgbuscar"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="188dp"
+        android:layout_marginStart="77dp"
+        app:srcCompat="@drawable/gps2" />
+
+    <ImageView
+        android:id="@+id/imgfavoritos"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgrecorridos"
+        android:layout_marginEnd="66dp"
+        app:srcCompat="@drawable/placeholder" />
+
+    <ImageView
+        android:id="@+id/imgrecorridos"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="85dp"
+        app:srcCompat="@drawable/road" />
+
+    <ImageView
+        android:id="@+id/imgmapa"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/imgfavoritos"
+        android:layout_alignTop="@+id/imgbuscar"
+        app:srcCompat="@drawable/gps" />
+
+</RelativeLayout>
